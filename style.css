@@ -1,0 +1,124 @@
+body{
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container-1{
+    margin: auto;
+    background-image: url("images/top-banner.png");
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.contain_name{
+    font-size: 25px;
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+}
+.contain_name h3{
+    font-size: 20px;
+}
+.contain_name p{
+    font-size: 17px;
+    color: rgb(94, 93, 93);
+}
+.contain_name-2 h3{
+    font-size: 20px;
+}
+.contain_name-2 p{
+    font-size: 17px;
+    color: rgb(94, 93, 93);
+}
+.contain_image {
+    width: 40%;
+    float: left;
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 35px;
+}
+.contain_image img{
+    width: 100%;
+}
+#name-highlight{
+    color: #FFB527;;
+}
+.link-button {
+    text-decoration: none;
+    background-color: #684DDB;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.link-button:hover{
+    background-color: #55CB90;
+}
+.container-2{
+    background-image: url("images/dream-bg.png");
+    background-position: right;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.contain_name-2{
+    font-size: 25px;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    
+}
+.contain_image-2 {
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+    
+}
+.contain_image-2 img{
+    width: 100%;
+}
+.experience-area
+{
+    margin: auto;
+    background-image: url("images/exp-bg.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.ex {
+    margin-left: 30px;
+    font-size: 35px;
+}
+.half-experience {
+    font-size: 20px;
+    width: 37%;
+    float: left;
+    margin-left: 6%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    padding: 30px;
+    height: 60%;
+    margin-top: 20px;
+    background-color: white;
+}
+.half-experience h3{
+    color: #FFB527;
+    font-size: 20px;
+}
+.half-experience p{
+    font-size: 17px;
+    color: rgb(94, 93, 93);
+}
+#experience-border-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato );
+    border-image-slice: 1;
+}
+#experience-border-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan );
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    background-color: #FFB626;
+    padding: 1px;
+    margin-top: 65px;
+}
